@@ -1,0 +1,5 @@
+{ "url" : "http://localhost:8089" }
+{ "url" : "ftp://not.going.to.find.this.either" }
+{ "url" : "http://localhost:8089/2?q=query" }
+{ "url" : "http://localhost:8089/3?q=query#fragment" }
+{ "url" : "http://localhost:8089/4?q={test|something}#fragment" }

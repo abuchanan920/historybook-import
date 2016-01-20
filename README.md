@@ -16,6 +16,9 @@ prompt> ./chrome-exporter.sh > export.json
 ```
 This will create a json file containing the browsing history of the user as extracted from Google Chrome.
 
+**NOTE:** The sqllite database used by Chrome can only be accessed by one process at a time. If you have Chrome running while running this exporter, you will get an error message. You must close Chrome before running the exporter for it to be able to access the history database.
+
+
 ```
 prompt> ./crawler.sh export.json > crawl.json
 ```

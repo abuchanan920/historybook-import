@@ -154,7 +154,8 @@ public class Crawler {
 				.replace("{", "%7B")
 				.replace("}", "%7D")
 				.replace("#", "%23")
-				.replace("|", "%7C");
+				.replace("|", "%7C")
+				.replace(" ", "%20");
 		return result;
 	}
 	
